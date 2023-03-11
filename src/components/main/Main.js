@@ -1,5 +1,6 @@
 import React from 'react';
 import Clients from './Clients';
+import Projects from './Projects';
 import "./styles/main.css";
 
 function Main() {
@@ -12,8 +13,11 @@ function Main() {
         <section className="image-services">
             <img src="https://formiga.digital/wp-content/uploads/2022/11/formigueiro-sem-fundo-1-1536x542.png" alt="foto" />
         </section>
-        <section className="section-clients">
+        <section className="section-client">
           <Clients />
+        </section>
+        <section className="section-projects">
+          <Projects />
         </section>
     </main>
   );
