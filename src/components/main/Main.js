@@ -1,6 +1,7 @@
 import React from 'react';
 import Clients from './Clients';
 import Projects from './Projects';
+import Specialist from './Specialist';
 import "./styles/main.css";
 
 function Main() {
@@ -18,6 +19,10 @@ function Main() {
         </section>
         <section className="section-projects">
           <Projects />
+        </section>
+
+        <section className="section-specialist">
+          <Specialist />
         </section>
     </main>
   );
