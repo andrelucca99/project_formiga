@@ -1,78 +1,78 @@
 main {
-    width: 100%;
-    height: 900px;
+  width: 100%;
+  height: 900px;
 }
 
 main > .title-services {
-    width: 100%;
-    height: 270px;
-    font-family: "Montserrat", Sans-serif;
+  width: 100%;
+  height: 270px;
+  font-family: "Montserrat", Sans-serif;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 main > .title-services > p {
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-    line-height: 1.5em;
-    color: #212421;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  color: #212421;
 }
 
 main > .title-services > h2 {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 34px;
-    font-weight: 900;
-    text-transform: uppercase;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
-main > .image-services {
-    width: 100%;
-    height: 380px;
+main > figure .image-services {
+  width: 100%;
+  height: 380px;
 }
 
 main > .image-services > img {
-    width: 100%;
-    height: 420px;
-    margin-top: -40px;
+  width: 100%;
+  height: 420px;
+  margin-top: -40px;
 }
 
 main > .section-client {
-    width: 100%;
-    height: 900px;
+  width: 100%;
+  height: 900px;
 }
 
 main > .section-projects {
-    width: 100%;
-    height: auto;
-    background: #F4F4F4;
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 main > .section-specialist {
-    width: 100%;
-    height: 400px;
-    background: #fff;
+  width: 100%;
+  height: 400px;
+  background: #fff;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main > .section-blog {
-    width: 100%;
-    height: auto;
-    background: #F4F4F4;
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

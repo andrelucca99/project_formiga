@@ -1,56 +1,56 @@
 .speak-specialist {
-    width: 1000px;
-    height: 250px;
-    padding: 20px;
+  width: 1000px;
+  height: 250px;
+  padding: 20px;
 
-    border-top: 7px solid #E86523;
-    box-shadow: 0px 0px 30px -10px rgb(0 0 0 / 50%);
+  border-top: 7px solid #e86523;
+  box-shadow: 0px 0px 30px -10px rgb(0 0 0 / 50%);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .speak-specialist > .title-specialist {
-    width: 500px;
-    height: 200px;
-    font-family: "Montserrat", Sans-serif;
-    margin-left: 50px;
-    margin-top: 20px;
+  width: 500px;
+  height: 200px;
+  font-family: "Montserrat", Sans-serif;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .speak-specialist > .title-specialist h2 {
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.8em;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.8em;
 }
 
 .speak-specialist > .title-specialist p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
 }
 
 .speak-specialist > .title-specialist button {
-    padding: 15px;
-    background: #E86523;
-    color: #fff;
-    margin-top: 30px;
-    border: none;
-    border-radius: 5px;
-    width: 250px;
-    font-weight: 400;
-    font-size: 15px;
+  padding: 15px;
+  background: #e86523;
+  color: #fff;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .speak-specialist > .title-specialist button:hover {
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.5s;
 }
 
 .speak-specialist > .image-specialist img {
-    width: 250px;
-    height: 250px;
-    scale: 0.85;
+  width: 250px;
+  height: 250px;
+  scale: 0.85;
 }

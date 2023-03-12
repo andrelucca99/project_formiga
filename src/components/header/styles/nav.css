@@ -1,52 +1,51 @@
 .menu {
-    width: 100%;
-    height: 80px;
-    background: #fff;
+  width: 100%;
+  height: 80px;
+  background: #fff;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 150px;
 
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
-.menu > img {
-    width: 200px;
-    height: 50px;
-    margin-left: -50px;
+.menu > figure img {
+  width: 200px;
+  height: 50px;
 }
 
 .menu > nav {
-    padding: 10px;
-    font-family: "Montserrat", Sans-serif;
+  padding: 10px;
+  font-family: "Montserrat", Sans-serif;
 }
 
 .menu > nav > ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    list-style:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
 }
 
 .menu > nav > ul > li {
-    color: #010101;
-    transition: 0.5s;
+  color: #010101;
+  transition: 0.5s;
 }
 
 .menu > nav > ul > li:hover {
-    color: #F0763F;
-    cursor: pointer;
-    margin-top: -20px;
-    transition: 0.5s;
+  color: #f0763f;
+  cursor: pointer;
+  margin-top: -10px;
+  transition: 0.5s;
 }
 
 .menu > nav > ul > li > .btn-nav {
-    padding: 20px;
-    background: #E86523;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 20px;
+  background: #e86523;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
