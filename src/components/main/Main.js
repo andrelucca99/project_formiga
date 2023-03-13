@@ -2,6 +2,7 @@ import React from "react";
 import Blog from "./Blog";
 import Clients from "./Clients";
 import Feedback from "./Feedback";
+import Parceiros from "./Parceiros";
 import Projects from "./Projects";
 import Specialist from "./Specialist";
 import "./styles/main.css";
@@ -38,6 +39,10 @@ function Main() {
 
       <section className="section-feedback">
         <Feedback />
+      </section>
+
+      <section className="section-parceiros">
+        <Parceiros />
       </section>
     </main>
   );

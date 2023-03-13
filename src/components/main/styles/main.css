@@ -86,3 +86,14 @@ main > .section-feedback {
   align-items: center;
   justify-content: center;
 }
+
+main > .section-parceiros {
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
