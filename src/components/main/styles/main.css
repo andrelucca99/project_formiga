@@ -79,7 +79,7 @@ main > .section-blog {
 
 main > .section-feedback {
   width: 100%;
-  height: 400px;
+  height: 500px;
   background: #fff;
 
   display: flex;
@@ -89,8 +89,19 @@ main > .section-feedback {
 
 main > .section-parceiros {
   width: 100%;
-  height: auto;
+  height: 600px;
   background: #f4f4f4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main > .section-form {
+  width: 100%;
+  height: 800px;
+  background: #54595F;
 
   display: flex;
   align-items: center;

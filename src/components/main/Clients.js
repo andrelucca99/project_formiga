@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../utils/Button";
 import "./styles/clients.css";
 
 function Clients() {
@@ -140,10 +141,10 @@ function Clients() {
             />
           </figure>
         </section>
-        <button type="button" className="btn-clientes">
-          Veja mais clients
-        </button>
       </section>
+      <div className="btn-clients">
+        <Button text="Veja mais clients" />
+      </div>
     </section>
   );
 }

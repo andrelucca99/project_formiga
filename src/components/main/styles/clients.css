@@ -1,3 +1,8 @@
+.section-clients {
+  width: 100%;
+  height: auto;
+}
+
 .section-clients > .title-clients {
   width: 100%;
   height: 150px;
@@ -11,7 +16,6 @@
 
 .section-clients > .title-clients > p {
   font-size: 18px;
-  margin-top: 40px;
 }
 
 .section-clients > .title-clients > h2 {
@@ -23,13 +27,13 @@
 
 .section-clients > .image-clients {
   width: 100%;
-  height: 900px;
+  height: 600px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: -50px;
+  padding: 50px;
 }
 
 .section-clients > .image-clients > .image {
@@ -44,26 +48,12 @@
 
 .section-clients > .image-clients > .image > .images {
   width: 100%;
-  height: 100%;
 }
 
-.section-clients > .image-clients > .btn-clientes {
-  width: 200px;
-  padding: 20px;
-  background: #e86523;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-
-  transition: 0.5s;
-  font-family: "Montserrat", Sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  margin-bottom: 80px;
-}
-
-.section-clients > .image-clients > .btn-clientes:hover {
-  cursor: pointer;
-  margin-top: -15px;
-  transition: 0.5s;
+.section-clients > .btn-clients {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

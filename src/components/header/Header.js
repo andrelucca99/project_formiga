@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../utils/Button";
 import Nav from "./Nav";
 import "./styles/header.css";
 
@@ -22,7 +23,9 @@ function Header() {
             <br /> e <strong>funil de vendas,</strong> offline, eventos e etc.
           </p>
 
-          <button type="button">Conheça nossos serviços</button>
+          <div className="btn_header">
+            <Button text="Conheça nossos serviços" />
+          </div>
         </article>
 
         <figure className="foto-banner">

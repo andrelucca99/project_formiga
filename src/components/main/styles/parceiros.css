@@ -1,13 +1,11 @@
 .section-parceiros {
   width: 1180px;
-  height: 350px;
-  padding: 20px;
+  height: auto;
 
   display: flex;
   align-items: left;
   justify-content: top;
   flex-direction: column;
-  margin-bottom: 50px;
 }
 
 .section-parceiros > .title-parceiros {
@@ -17,7 +15,7 @@
   text-align: left;
   padding: 5px;
   margin-bottom: 80px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .section-parceiros > .title-parceiros h2 {
