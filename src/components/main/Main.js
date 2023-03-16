@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../footer/Footer";
 import Blog from "./Blog";
 import Clients from "./Clients";
 import Feedback from "./Feedback";

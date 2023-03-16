@@ -143,7 +143,7 @@ function Clients() {
         </section>
       </section>
       <div className="btn-clients">
-        <Button text="Veja mais clients" />
+        <Button>Veja mais clients</Button>
       </div>
     </section>
   );

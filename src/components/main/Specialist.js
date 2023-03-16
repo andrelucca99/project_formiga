@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../utils/Button';
 import "./styles/specialist.css";
 
 function Specialist() {
@@ -10,7 +11,7 @@ function Specialist() {
                 Clique aqui e solicite um orçamento personalizado<br />
                 para sua empresa
             </p>
-            <button type="button">Solicite um orçamento</button>
+            <Button>Solicite um orçamento</Button>
         </section>
 
         <figure className="image-specialist">

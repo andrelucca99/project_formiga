@@ -24,7 +24,7 @@ function Header() {
           </p>
 
           <div className="btn_header">
-            <Button text="Conheça nossos serviços" />
+            <Button>Conheça nossos serviços</Button>
           </div>
         </article>
 

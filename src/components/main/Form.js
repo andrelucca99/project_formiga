@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styles/form.css";
 import Button from "../utils/Button";
+import Input from '../utils/Input';
 
 function Form() {
   return (
@@ -9,26 +10,27 @@ function Form() {
             <p>JUNTE-SE A FORMIGA</p>
             <h2>SOLICITE O SEU ORÇAMENTO</h2>
         </article>
+
         <form action="#" method="post" className="camp_form">
           <div className="camp">
-            <label for="nome">Nome<br />
-              <input type="text" id="nome" />
+            <label htmlFor="nome">Nome<br />
+              <Input type="text" id="nome"/>
             </label>
-            <label for="email">E-mail<br />
-              <input type="email" id="email" />
+            <label htmlFor="email">E-mail<br />
+              <Input type="email" id="email" />
             </label>
 
-            <label for="tel">Telefone<br />
-              <input type="number" id="tel" />
+            <label htmlFor="tel">Telefone<br />
+              <Input type="number" id="tel" />
             </label>
           </div>
 
           <div className="camp">
-            <label for="empresa">Empresa<br />
-              <input type="text" id="empresa" />
+            <label htmlFor="empresa">Empresa<br />
+              <Input type="text" id="empresa" />
             </label>
 
-            <label for="cargo">Qual seu cargo?<br />
+            <label htmlFor="cargo">Qual seu cargo?<br />
               <select name="select" id="cargo">
                 <option>Sócio/CEO/Presidente</option>
                 <option>Diretor</option>
@@ -38,7 +40,7 @@ function Form() {
               </select>
             </label>
 
-            <label for="segmento">Segmento da empresa<br />
+            <label htmlFor="segmento">Segmento da empresa<br />
               <select name="select" id="segmento">
                 <option>Saúde</option>
                 <option>E-commerce</option>
@@ -55,12 +57,12 @@ function Form() {
           </div>
 
           <div className="camp_text">
-            <label for="msg">Conte um pouco sobre a sua necessidade:</label><br />
+            <label htmlFor="msg">Conte um pouco sobre a sua necessidade:</label><br />
             <textarea id="msg" rows="4" cols="50"></textarea>
           </div>
 
           <div className="camp_cantact">
-            <label for="type-contact">Que tipo de contato prefere receber?<br />
+            <label htmlFor="type-contact">Que tipo de contato prefere receber?<br />
               <select name="select" id="type-contact">
                 <option>WhatsApp</option>
                 <option>E-mail</option>
@@ -69,7 +71,7 @@ function Form() {
               </select>
             </label>
 
-            <label for="period">Qual período prefere receber contato?<br />
+            <label htmlFor="period">Qual período prefere receber contato?<br />
               <select name="select" id="period">
                 <option>Manhã</option>
                 <option>Tarde</option>
@@ -79,7 +81,7 @@ function Form() {
           </div>
 
           <div className="btn_form">
-            <Button text="ENVIAR SOLICITAÇÃO" />
+            <Button>ENVIAR SOLICITAÇÃO</Button>
           </div>
 
         </form>

@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  height: 900px;
+  height: auto;
 }
 
 main > .title-services {
@@ -107,4 +107,10 @@ main > .section-form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+main > .section-footer {
+  width: 100%;
+  height: 550px;
+  background: red;
 }

@@ -31,24 +31,6 @@
   line-height: 1.2em;
 }
 
-.speak-specialist > .title-specialist button {
-  padding: 15px;
-  background: #e86523;
-  color: #fff;
-  margin-top: 30px;
-  border: none;
-  border-radius: 5px;
-  width: 250px;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.speak-specialist > .title-specialist button:hover {
-  cursor: pointer;
-  margin-top: 10px;
-  transition: 0.5s;
-}
-
 .speak-specialist > .image-specialist img {
   width: 250px;
   height: 250px;
