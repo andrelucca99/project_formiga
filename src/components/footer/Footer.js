@@ -73,9 +73,7 @@ function Footer() {
             <li>Política de privacidade</li>
           </ul>
           <h3>NOS ACOMPANHE!</h3>
-          <div className="footer-redes">
-            redes
-          </div>
+          <div className="footer-redes">redes</div>
         </section>
         <section className="columuns">
           <h3 className="footer-title">CEO DA AGÊNCIA</h3>
