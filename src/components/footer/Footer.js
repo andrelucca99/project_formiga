@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-max-depth */
 import React from 'react';
+import Image from '../utils/Image';
 import Copyright from './Copyright';
 import './styles/footer.css';
 
@@ -9,10 +10,7 @@ function Footer() {
       <section className="footer-infos">
         <section className="columuns">
           <figure>
-            <img
-              src="https://formiga.digital/wp-content/uploads/2022/11/LOGO-FORMIGA-DIGITAL-1-1536x401.png"
-              alt="logo"
-            />
+            <Image image="https://formiga.digital/wp-content/uploads/2022/11/LOGO-FORMIGA-DIGITAL-1-1536x401.png" alt="Logo" />
           </figure>
           <ul>
             <li>
@@ -28,16 +26,10 @@ function Footer() {
           <h3>APOIE</h3>
           <div className="icons-apoio">
             <figure className="foto-apoio">
-              <img
-                src="https://formiga.digital/wp-content/uploads/2022/11/AACD-LOGO-PNG.png"
-                alt="AACD Logo"
-              />
+              <Image image="https://formiga.digital/wp-content/uploads/2022/11/AACD-LOGO-PNG.png" alt="AACD Logo" />
             </figure>
             <figure className="foto-apoio">
-              <img
-                src="https://formiga.digital/wp-content/uploads/2022/11/associacao.png"
-                alt="logo associacao"
-              />
+              <Image image="https://formiga.digital/wp-content/uploads/2022/11/associacao.png" alt="Logo Associação" />
             </figure>
           </div>
         </section>
@@ -58,10 +50,7 @@ function Footer() {
           </ul>
           <div className="icons-servico">
             <figure className="foto-servico">
-              <img
-                src="https://formiga.digital/wp-content/uploads/2022/11/agencia-de-marketing-digital-3.png"
-                alt="Logo Servico"
-              />
+              <Image image="https://formiga.digital/wp-content/uploads/2022/11/agencia-de-marketing-digital-3.png" alt="Logo Servico" />
             </figure>
           </div>
         </section>
@@ -83,29 +72,20 @@ function Footer() {
           <section className="columuns_ceo">
             <div className="foto-linkedin">
               <figure className="linkedin">
-                <img
-                  src="https://formiga.digital/wp-content/uploads/2022/11/LinkedIn_Logo.svg-1536x417.png"
-                  alt="foto linkedin"
-                />
+                <Image image="https://formiga.digital/wp-content/uploads/2022/11/LinkedIn_Logo.svg-1536x417.png" alt="Logo Linkedin" />
               </figure>
             </div>
 
             <div className="foto-CEO">
               <figure className="CEO">
-                <img
-                  src="https://formiga.digital/wp-content/uploads/2022/11/26c91561-2e1f-46e6-88f2-85d9e6bf7bd7.jpg"
-                  alt="foto CEO"
-                />
+                <Image image="https://formiga.digital/wp-content/uploads/2022/11/26c91561-2e1f-46e6-88f2-85d9e6bf7bd7.jpg" alt="Foto CEO" />
               </figure>
             </div>
             <h3>Marco Freitas</h3>
 
             <div className="section-star-5">
               <figure className="star-5">
-                <img
-                  src="https://static.vecteezy.com/ti/vetor-gratis/p3/3355389-ilustracaoial-de-sinal-de-classificacao-de-cinco-estrelas-gratis-vetor.jpg"
-                  alt="foto"
-                />
+                <Image image="https://static.vecteezy.com/ti/vetor-gratis/p3/3355389-ilustracaoial-de-sinal-de-classificacao-de-cinco-estrelas-gratis-vetor.jpg" alt="5 Estrelas" />
               </figure>
             </div>
 

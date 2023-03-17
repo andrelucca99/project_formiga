@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../utils/Image';
 import Blog from './Blog';
 import Clients from './Clients';
 import Feedback from './Feedback';
@@ -17,10 +18,7 @@ function Main() {
       </section>
       <section className="image-services">
         <figure>
-          <img
-            src="https://formiga.digital/wp-content/uploads/2022/11/formigueiro-sem-fundo-1-1536x542.png"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2022/11/formigueiro-sem-fundo-1-1536x542.png" alt="foto" />
         </figure>
       </section>
       <section className="section-client">

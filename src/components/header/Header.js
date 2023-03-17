@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../utils/Button';
+import Image from '../utils/Image';
 import Nav from './Nav';
 import './styles/header.css';
 
@@ -12,7 +13,7 @@ function Header() {
         <article className="banner-title">
           <h1>
             Faça parte do
-            <span>Formigueiro!</span>
+            <span> Formigueiro!</span>
             <br />
             Apareça e venda mais.
           </h1>
@@ -36,12 +37,8 @@ function Header() {
             <Button>Conheça nossos serviços</Button>
           </div>
         </article>
-
         <figure className="foto-banner">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2022/11/mascote-formiga-digital-2.jpg"
-            alt="foto do banner"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2022/11/mascote-formiga-digital-2.jpg" alt="foto do banner" />
         </figure>
       </section>
     </header>

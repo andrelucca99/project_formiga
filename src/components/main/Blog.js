@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../utils/Image';
 import './styles/blog.css';
 
 function Blog() {
@@ -11,10 +12,7 @@ function Blog() {
 
       <section className="images-blog">
         <figure className="image-blog">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2023/02/Dicas-para-melhorar-a-presenca_-1.jpg"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2023/02/Dicas-para-melhorar-a-presenca_-1.jpg" alt="foto" />
           <figcaption>
             <h3>Dicas para melhorar a presença digital de uma empresa</h3>
             <p>
@@ -26,10 +24,7 @@ function Blog() {
         </figure>
 
         <figure className="image-blog">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2023/02/como-medir-o-sucesso_-1.jpg"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2023/02/como-medir-o-sucesso_-1.jpg" alt="foto" />
           <figcaption>
             <h3>Como medir o sucesso de uma campanha de marketing digital?</h3>
             <p>
@@ -41,10 +36,7 @@ function Blog() {
         </figure>
 
         <figure className="image-blog">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2023/02/O-impacto-das-midias-sociais_.jpg"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2023/02/O-impacto-das-midias-sociais_.jpg" alt="foto" />
           <figcaption>
             <h3>
               O impacto das mídias sociais na estratégia de marketing de uma
@@ -61,10 +53,7 @@ function Blog() {
 
       <section className="images-blog">
         <figure className="image-blog">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2023/02/Tendencias-do-Mkt.jpg"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2023/02/Tendencias-do-Mkt.jpg" alt="foto" />
           <figcaption>
             <h3>Tendências do Marketing Digital</h3>
             <p>
@@ -76,10 +65,7 @@ function Blog() {
         </figure>
 
         <figure className="image-blog">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2023/02/5-Social-Selling.jpg"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2023/02/5-Social-Selling.jpg" alt="foto" />
           <figcaption>
             <h3>Social Selling: a estratégia de vendas nas redes sociais</h3>
             <p>
@@ -91,10 +77,7 @@ function Blog() {
         </figure>
 
         <figure className="image-blog">
-          <img
-            src="https://formiga.digital/wp-content/uploads/2023/02/4-formigas.jpg"
-            alt="foto"
-          />
+          <Image image="https://formiga.digital/wp-content/uploads/2023/02/4-formigas.jpg" alt="foto" />
           <figcaption>
             <h3>O que podemos aprender com as formigas?</h3>
             <p>

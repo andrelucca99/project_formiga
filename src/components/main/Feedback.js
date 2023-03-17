@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/jsx-max-depth */
 import React from 'react';
+import Image from '../utils/Image';
 import './styles/feedback.css';
 
 function Feedback() {
@@ -12,14 +13,9 @@ function Feedback() {
       </section>
       <section className="carrossel-feedback">
         <figure>
-          <img
-            src="https://cdn.trustindex.io/assets/platform/Google/logo.svg"
-            alt="foto"
-          />
-          <img
-            src="https://static.vecteezy.com/ti/vetor-gratis/p3/3355389-ilustracaoial-de-sinal-de-classificacao-de-cinco-estrelas-gratis-vetor.jpg"
-            alt="foto"
-          />
+          <Image image="https://cdn.trustindex.io/assets/platform/Google/logo.svg" alt="foto" />
+
+          <Image image="https://static.vecteezy.com/ti/vetor-gratis/p3/3355389-ilustracaoial-de-sinal-de-classificacao-de-cinco-estrelas-gratis-vetor.jpg" alt="foto" />
           <figcaption>
             <p>
               <strong>EXCELENTE</strong>
