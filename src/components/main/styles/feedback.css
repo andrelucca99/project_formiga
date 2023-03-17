@@ -1,40 +1,16 @@
 .section-carrossel-feedback {
   width: 1180px;
-  height: 400px;
-  padding: 20px;
+  height: auto;
 
   display: flex;
-  align-items: left;
-  justify-content: top;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin-left: 20px;
-}
-
-.section-carrossel-feedback > .title-feedback {
-  width: 500px;
-  height: 60px;
-  font-family: "Montserrat", Sans-serif;
-  text-align: left;
-  padding: 5px;
-  margin-bottom: 80px;
-}
-
-.section-carrossel-feedback > .title-feedback h2 {
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 1em;
-}
-
-.section-carrossel-feedback > .title-feedback p {
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 1.8em;
 }
 
 .section-carrossel-feedback > .carrossel-feedback {
   width: 100%;
-  height: 200px;
+  height: auto;
   display: flex;
 }
 

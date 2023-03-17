@@ -1,13 +1,14 @@
 import React from 'react';
+import TitlteLeft from '../utils/TitlteLeft';
 import './styles/parceiros.css';
 
 function Parceiros() {
   return (
     <section className="section-parceiros">
-      <section className="title-parceiros">
+      <TitlteLeft>
         <p>NOSSOS</p>
         <h2>PARCEIROS</h2>
-      </section>
+      </TitlteLeft>
       <section className="carrossel-parceiros">carrosel</section>
     </section>
   );

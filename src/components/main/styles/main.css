@@ -3,32 +3,6 @@ main {
   height: auto;
 }
 
-main > .title-services {
-  width: 100%;
-  height: 270px;
-  font-family: "Montserrat", Sans-serif;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-main > .title-services > p {
-  font-size: 18px;
-  font-weight: 300;
-  text-transform: uppercase;
-  line-height: 1.5em;
-  color: #212421;
-}
-
-main > .title-services > h2 {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 34px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
 main > figure .image-services {
   width: 100%;
   height: 380px;
@@ -80,7 +54,6 @@ main > .section-blog {
 main > .section-feedback {
   width: 100%;
   height: 500px;
-  background: #fff;
 
   display: flex;
   align-items: center;

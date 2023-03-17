@@ -1,14 +1,15 @@
 import React from 'react';
 import Image from '../utils/Image';
+import TitlteLeft from '../utils/TitlteLeft';
 import './styles/blog.css';
 
 function Blog() {
   return (
     <section className="blog">
-      <section className="title-blog">
+      <TitlteLeft>
         <p>CONFIRA O</p>
         <h2>NOSSO BLOG</h2>
-      </section>
+      </TitlteLeft>
 
       <section className="images-blog">
         <figure className="image-blog">

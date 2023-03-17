@@ -3,14 +3,15 @@ import React from 'react';
 import './styles/form.css';
 import Button from '../utils/Button';
 import Input from '../utils/Input';
+import TitlteLeft from '../utils/TitlteLeft';
 
 function Form() {
   return (
     <div className="formulario">
-      <article className="title-form">
+      <TitlteLeft>
         <p>JUNTE-SE A FORMIGA</p>
         <h2>SOLICITE O SEU ORÇAMENTO</h2>
-      </article>
+      </TitlteLeft>
 
       <form action="#" method="post" className="camp_form">
         <div className="camp">

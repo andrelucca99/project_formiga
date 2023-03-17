@@ -2,14 +2,15 @@ import React from 'react';
 import Image from '../utils/Image';
 import Button from '../utils/Button';
 import './styles/clients.css';
+import Titlte from '../utils/Titlte';
 
 function Clients() {
   return (
     <section className="section-clients">
-      <section className="title-clients">
+      <Titlte>
         <p>ALGUM DOS NOSSOS</p>
         <h2>CLIENTES</h2>
-      </section>
+      </Titlte>
       <section className="image-clients">
         <section className="image">
           <figure className="images">

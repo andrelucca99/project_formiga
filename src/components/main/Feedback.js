@@ -2,15 +2,16 @@
 /* eslint-disable react/jsx-max-depth */
 import React from 'react';
 import Image from '../utils/Image';
+import TitlteLeft from '../utils/TitlteLeft';
 import './styles/feedback.css';
 
 function Feedback() {
   return (
     <section className="section-carrossel-feedback">
-      <section className="title-feedback">
+      <TitlteLeft>
         <p>O QUE NOSSOS CLIENTES</p>
         <h2>DIZEM SOBRE NÓS</h2>
-      </section>
+      </TitlteLeft>
       <section className="carrossel-feedback">
         <figure>
           <Image image="https://cdn.trustindex.io/assets/platform/Google/logo.svg" alt="foto" />

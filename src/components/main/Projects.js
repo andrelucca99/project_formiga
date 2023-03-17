@@ -1,14 +1,15 @@
 import React from 'react';
 import Image from '../utils/Image';
+import TitlteLeft from '../utils/TitlteLeft';
 import './styles/projects.css';
 
 function Projects() {
   return (
     <section className="projects">
-      <section className="title-projects">
+      <TitlteLeft>
         <p>NOSSOS</p>
         <h2>PROJETOS</h2>
-      </section>
+      </TitlteLeft>
 
       <section className="images-projects">
         <figure className="image-project">
