@@ -1,13 +1,12 @@
-import React from "react";
-import Footer from "../footer/Footer";
-import Blog from "./Blog";
-import Clients from "./Clients";
-import Feedback from "./Feedback";
-import Form from "./Form";
-import Parceiros from "./Parceiros";
-import Projects from "./Projects";
-import Specialist from "./Specialist";
-import "./styles/main.css";
+import React from 'react';
+import Blog from './Blog';
+import Clients from './Clients';
+import Feedback from './Feedback';
+import Form from './Form';
+import Parceiros from './Parceiros';
+import Projects from './Projects';
+import Specialist from './Specialist';
+import './styles/main.css';
 
 function Main() {
   return (

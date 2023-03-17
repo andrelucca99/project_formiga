@@ -1,5 +1,7 @@
-import React from "react";
-import "./styles/feedback.css";
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable react/jsx-max-depth */
+import React from 'react';
+import './styles/feedback.css';
 
 function Feedback() {
   return (

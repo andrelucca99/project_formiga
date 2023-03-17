@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "../utils/Button";
-import "./styles/clients.css";
+import React from 'react';
+import Button from '../utils/Button';
+import './styles/clients.css';
 
 function Clients() {
   return (

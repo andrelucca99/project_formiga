@@ -1,5 +1,5 @@
-import React from "react";
-import "./styles/parceiros.css";
+import React from 'react';
+import './styles/parceiros.css';
 
 function Parceiros() {
   return (

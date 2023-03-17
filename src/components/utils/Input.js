@@ -1,7 +1,8 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+import React from 'react';
 
 function Input({ type, id }) {
-  return <input type={type} id={id} />;
+  return <input type={ type } id={ id } />;
 }
 
 export default Input;

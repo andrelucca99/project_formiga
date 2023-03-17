@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "../utils/Button";
-import "./styles/specialist.css";
+import React from 'react';
+import Button from '../utils/Button';
+import './styles/specialist.css';
 
 function Specialist() {
   return (

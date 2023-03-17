@@ -1,7 +1,8 @@
-import React from "react";
-import "./styles/form.css";
-import Button from "../utils/Button";
-import Input from "../utils/Input";
+/* eslint-disable react/jsx-max-depth */
+import React from 'react';
+import './styles/form.css';
+import Button from '../utils/Button';
+import Input from '../utils/Input';
 
 function Form() {
   return (
@@ -71,7 +72,7 @@ function Form() {
         <div className="camp_text">
           <label htmlFor="msg">Conte um pouco sobre a sua necessidade:</label>
           <br />
-          <textarea id="msg" rows="4" cols="50"></textarea>
+          <textarea id="msg" rows="4" cols="50" />
         </div>
 
         <div className="camp_cantact">

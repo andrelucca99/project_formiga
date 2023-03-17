@@ -1,6 +1,7 @@
-import React from "react";
-import Copyright from "./Copyright";
-import "./styles/footer.css";
+/* eslint-disable react/jsx-max-depth */
+import React from 'react';
+import Copyright from './Copyright';
+import './styles/footer.css';
 
 function Footer() {
   return (
@@ -48,7 +49,9 @@ function Footer() {
             <li>Web - SEO - Suporte e Hospedagem</li>
             <li>Tráfego Pago</li>
             <li>
-              Inbound, Outbound Marketing e<br /> Social Selling
+              Inbound, Outbound Marketing e
+              <br />
+              Social Selling
             </li>
             <li>Terceirização de Serviços</li>
             <li>Marketing para Saúde</li>
