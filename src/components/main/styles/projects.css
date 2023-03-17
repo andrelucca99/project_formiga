@@ -14,12 +14,12 @@
 
 .projects > .images-projects {
   width: 100%;
-  height: 286px;
+  height: auto;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  grid-auto-rows: minmax(auto, auto);
 }
 
 .projects > .images-projects > .image-project img {

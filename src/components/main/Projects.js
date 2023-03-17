@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../utils/Image';
 import TitlteLeft from '../utils/TitlteLeft';
 import './styles/projects.css';
+import { project } from '../utils/mocks/Projects';
 
 function Projects() {
   return (
@@ -12,6 +13,14 @@ function Projects() {
       </TitlteLeft>
 
       <section className="images-projects">
+        {project.map((item) => (
+          <figure className="image-project" key={ item }>
+            <Image image={ item.image } alt={ item.alt } />
+          </figure>
+        ))}
+      </section>
+
+      {/* <section className="images-projects">
         <figure className="image-project">
           <Image image="https://formiga.digital/wp-content/uploads/2022/11/3d2893156050437.Y3JvcCw4MTAsNjMzLDAsMA-1.png" alt="foto" />
         </figure>
@@ -79,7 +88,7 @@ function Projects() {
         <figure className="image-project">
           <Image image="https://formiga.digital/wp-content/uploads/2022/11/3f3990156372405.Y3JvcCw4MTAsNjMzLDAsMA.png" alt="foto" />
         </figure>
-      </section>
+      </section> */}
     </section>
   );
 }
