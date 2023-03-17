@@ -12,11 +12,10 @@
 }
 
 .speak-specialist > .title-specialist {
-  width: 500px;
-  height: 200px;
+  width: 50%;
+  height: auto;
   font-family: "Montserrat", Sans-serif;
-  margin-left: 50px;
-  margin-top: 20px;
+  padding-left: 20px;
 }
 
 .speak-specialist > .title-specialist h2 {
@@ -31,8 +30,16 @@
   line-height: 1.2em;
 }
 
-.speak-specialist > .image-specialist img {
-  width: 250px;
-  height: 250px;
-  scale: 0.85;
+.speak-specialist > .images-specialist {
+  width: 50%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(auto, auto);
+}
+
+.speak-specialist > .images-specialist > .image {
+  scale: 0.75;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../utils/Button';
 import Image from '../utils/Image';
 import './styles/specialist.css';
+import { specialist } from '../utils/mocks/Specialist';
 
 function Specialist() {
   return (
@@ -16,13 +17,13 @@ function Specialist() {
         <Button>Solicite um orçamento</Button>
       </section>
 
-      <figure className="image-specialist">
-        <Image image="https://formiga.digital/wp-content/uploads/2022/11/mascote-formiga-digital-2.jpg" alt="foto" />
-      </figure>
-
-      <figure className="image-specialist">
-        <Image image="https://prints.ultracoloringpages.com/be116cbedc08ee724a05f8940d871c56.png" alt="foto" />
-      </figure>
+      <section className="images-specialist">
+        {specialist.map((item) => (
+          <figure key={ item.id } className="image">
+            <Image image={ item.image } alt={ item.alt } />
+          </figure>
+        ))}
+      </section>
     </section>
   );
 }
