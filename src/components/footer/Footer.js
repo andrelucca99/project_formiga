@@ -3,6 +3,7 @@ import React from 'react';
 import Image from '../utils/Image';
 import Copyright from './Copyright';
 import './styles/footer.css';
+import { card } from '../utils/mocks/CardCEO';
 
 function Footer() {
   return (
@@ -69,34 +70,35 @@ function Footer() {
         </section>
         <section className="columuns">
           <h3 className="footer-title">CEO DA AGÊNCIA</h3>
-          <section className="columuns_ceo">
-            <div className="foto-linkedin">
-              <figure className="linkedin">
-                <Image image="https://formiga.digital/wp-content/uploads/2022/11/LinkedIn_Logo.svg-1536x417.png" alt="Logo Linkedin" />
-              </figure>
-            </div>
 
-            <div className="foto-CEO">
-              <figure className="CEO">
-                <Image image="https://formiga.digital/wp-content/uploads/2022/11/26c91561-2e1f-46e6-88f2-85d9e6bf7bd7.jpg" alt="Foto CEO" />
-              </figure>
-            </div>
-            <h3>Marco Freitas</h3>
+          {card.map((item) => (
+            <section key={ item.id } className="columuns_ceo">
+              <div className="foto-linkedin">
+                <figure className="linkedin">
+                  <Image image={ item.image_linkedin } alt={ item.alt } />
+                </figure>
+              </div>
 
-            <div className="section-star-5">
-              <figure className="star-5">
-                <Image image="https://static.vecteezy.com/ti/vetor-gratis/p3/3355389-ilustracaoial-de-sinal-de-classificacao-de-cinco-estrelas-gratis-vetor.jpg" alt="5 Estrelas" />
-              </figure>
-            </div>
+              <div className="foto-CEO">
+                <figure className="CEO">
+                  <Image image={ item.image_perfil } alt={ item.alt } />
+                </figure>
+              </div>
 
-            <p>
-              CEO e Founder na Formiga Digital Consultor de Marketing Digital
-              Senior Palestrante
-            </p>
-            <p>Agência Formiga Digital | Universidade Anhembi Morumbi</p>
+              <h3>{ item.name }</h3>
 
-            <button type="button">Ver Perfil</button>
-          </section>
+              <div className="section-star-5">
+                <figure className="star-5">
+                  <Image image={ item.image } alt={ item.alt } />
+                </figure>
+              </div>
+
+              <p>{ item.paragrafh_1 }</p>
+              <p>{ item.paragrafh_2 }</p>
+
+              <button type="button">Ver Perfil</button>
+            </section>
+          ))}
         </section>
       </section>
       <Copyright />
