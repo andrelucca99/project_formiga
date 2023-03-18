@@ -12,7 +12,7 @@
 .footer-infos {
   width: 100%;
   height: 600px;
-  /* background: yellow; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,8 +23,10 @@
   width: 312px;
   height: 500px;
   padding-top: 30px;
-  /* background: blue; */
-  /* border-right: 1px solid #ccc; */
+}
+
+.columuns h3 {
+  color: #292929;
 }
 
 .columuns > figure img {
@@ -41,6 +43,13 @@
 .columuns ul li {
   color: #555555;
   margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.columuns ul li > .space-right {
+  margin-right: 10px;
 }
 
 .columuns ul li:hover {
@@ -75,9 +84,19 @@
 }
 
 .columuns > .footer-redes {
-  width: 80%;
+  width: 50%;
   height: 25px;
-  background: #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #292929;
+}
+
+.columuns > .footer-redes > .rede:hover {
+  color: #ea8939;
+  cursor: pointer;
 }
 
 .columuns > .footer-title {

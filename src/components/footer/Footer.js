@@ -1,5 +1,10 @@
+/* eslint-disable max-len */
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/jsx-max-depth */
 import React from 'react';
+import { AiOutlineRight } from 'react-icons/ai';
+import { BiLocationPlus } from 'react-icons/bi';
+import { ImFacebook, ImInstagram, ImMail2, ImPhone, ImTwitter, ImYoutube } from 'react-icons/im';
 import Image from '../utils/Image';
 import Copyright from './Copyright';
 import './styles/footer.css';
@@ -15,14 +20,14 @@ function Footer() {
           </figure>
           <ul>
             <li>
-              Av. Cassandoca, N 457
+              <BiLocationPlus className="space-right" /> Av. Cassandoca, N 457
               <br />
               Salas 2 e 4, Mooca, SP
             </li>
-            <li>11. 3205-2442</li>
-            <li>11. 3205-2469</li>
-            <li>11. 94128-9701</li>
-            <li>contato@formigadigital.com.br</li>
+            <li><ImPhone className="space-right" /> 11. 3205-2442</li>
+            <li><ImPhone className="space-right" /> 11. 3205-2469</li>
+            <li><ImPhone className="space-right" /> 11. 94128-9701</li>
+            <li><ImMail2 className="space-right" /> contato@formigadigital.com.br</li>
           </ul>
           <h3>APOIE</h3>
           <div className="icons-apoio">
@@ -37,17 +42,18 @@ function Footer() {
         <section className="columuns">
           <h3 className="footer-title">NOSSOS SERVIÇOS</h3>
           <ul>
-            <li>Criação</li>
-            <li>Gestão de Redes Sociais</li>
-            <li>Web - SEO - Suporte e Hospedagem</li>
-            <li>Tráfego Pago</li>
+            <li><AiOutlineRight className="space-right" />Criação</li>
+            <li><AiOutlineRight className="space-right" />Gestão de Redes Sociais</li>
+            <li><AiOutlineRight className="space-right" />Web - SEO - Suporte e Hospedagem</li>
+            <li><AiOutlineRight className="space-right" />Tráfego Pago</li>
             <li>
+              <AiOutlineRight className="space-right" />
               Inbound, Outbound Marketing e
               <br />
               Social Selling
             </li>
-            <li>Terceirização de Serviços</li>
-            <li>Marketing para Saúde</li>
+            <li><AiOutlineRight className="space-right" />Terceirização de Serviços</li>
+            <li><AiOutlineRight className="space-right" />Marketing para Saúde</li>
           </ul>
           <div className="icons-servico">
             <figure className="foto-servico">
@@ -58,15 +64,20 @@ function Footer() {
         <section className="columuns">
           <h3 className="footer-title">SOBRE A FORMIGA</h3>
           <ul>
-            <li>Home</li>
-            <li>Sobre a Formiga Digital</li>
-            <li>Blog</li>
-            <li>Faça parte do Formigueiro</li>
-            <li>Solicite um Orçamento</li>
-            <li>Política de privacidade</li>
+            <li><AiOutlineRight className="space-right" />Home</li>
+            <li><AiOutlineRight className="space-right" />Sobre a Formiga Digital</li>
+            <li><AiOutlineRight className="space-right" />Blog</li>
+            <li><AiOutlineRight className="space-right" />Faça parte do Formigueiro</li>
+            <li><AiOutlineRight className="space-right" />Solicite um Orçamento</li>
+            <li><AiOutlineRight className="space-right" />Política de privacidade</li>
           </ul>
           <h3>NOS ACOMPANHE!</h3>
-          <div className="footer-redes">redes</div>
+          <div className="footer-redes">
+            <ImFacebook className="rede" />
+            <ImInstagram className="rede" />
+            <ImTwitter className="rede" />
+            <ImYoutube className="rede" />
+          </div>
         </section>
         <section className="columuns">
           <h3 className="footer-title">CEO DA AGÊNCIA</h3>
