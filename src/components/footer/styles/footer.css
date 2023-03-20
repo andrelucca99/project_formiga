@@ -43,6 +43,7 @@
 .columuns ul li {
   color: #555555;
   margin-bottom: 10px;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -52,7 +53,7 @@
   margin-right: 10px;
 }
 
-.columuns ul li:hover {
+.columuns ul li:hover .space-right {
   color: #ea8939;
   cursor: pointer;
 }

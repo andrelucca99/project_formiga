@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-max-depth */
 import React from 'react';
 import Image from '../utils/Image';
+import Carrosel from '../utils/Carrosel';
 import TitlteLeft from '../utils/TitlteLeft';
 import './styles/feedback.css';
 
@@ -27,7 +28,9 @@ function Feedback() {
             </p>
           </figcaption>
         </figure>
-        <section className="slide">carrossel</section>
+        <section className="slide">
+          <Carrosel />
+        </section>
       </section>
     </section>
   );
